@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Counter = (props) => {
   const [counter, setCounter] = useState(0);
@@ -8,6 +8,12 @@ const Counter = (props) => {
   const Decrementar = () => {
     setCounter((prev) => prev - 1);
   };
+  useEffect(()=>{
+      if(counter<0){
+          return ()=>{setCounter(0)}
+      }
+
+  }, [counter] )
   const lift=()=>props.liftState(counter)
   return (
     <>
