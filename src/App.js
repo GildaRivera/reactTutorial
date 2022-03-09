@@ -3,6 +3,7 @@ import './App.css';
 import Main from './components/main';
 import Counter from './components/state';
 import { useState } from 'react';
+import Component1 from './components/context';
 function App() {
   const [main,setMain] = useState()
   let handleState=(params)=>{
@@ -14,6 +15,7 @@ function App() {
      <Main user="gilda"/>
      <Counter liftState={handleState} />
      <h1>Estado de componente counter: {main}</h1>
+     <Component1/>
     </div>
   );
 }
