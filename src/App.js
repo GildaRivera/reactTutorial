@@ -6,6 +6,8 @@ function App() {
     <div>
      <h1>Hola</h1>
      <Main user="gilda"/>
+     <Main user="gilda2"/>
+     <Main user="gilda3"/>
     </div>
   );
 }
