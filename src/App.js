@@ -6,6 +6,7 @@ import { useState } from 'react';
 import Component1 from './components/context';
 import { Home } from './components/useEffect';
 import { Element } from './components/1-jsx';
+import { Test } from './components/2-propsClass';
 function App() {
   const [main,setMain] = useState()
   let handleState=(params)=>{
@@ -20,6 +21,7 @@ function App() {
      <Component1/>
      <Home/>
      <Element />
+     <Test />
     </div>
   );
 }
