@@ -3,7 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Clock } from './components/state';
 
+// function tick() {
+//   ReactDOM.render(
+//     <Clock date={new Date()} />,
+//     document.getElementById('root')
+//   );
+// }
+
+// setInterval(tick, 1000);
 ReactDOM.render(
   <React.StrictMode>
     <App />
