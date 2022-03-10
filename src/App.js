@@ -5,6 +5,7 @@ import Counter from './components/state';
 import { useState } from 'react';
 import Component1 from './components/context';
 import { Home } from './components/useEffect';
+import { Element } from './components/1-jsx';
 function App() {
   const [main,setMain] = useState()
   let handleState=(params)=>{
@@ -18,6 +19,7 @@ function App() {
      <h1>Estado de componente counter: {main}</h1>
      <Component1/>
      <Home/>
+     <Element />
     </div>
   );
 }
