@@ -8,6 +8,8 @@ import { Home } from './components/useEffect';
 import { Element } from './components/1-jsx';
 import { Test } from './components/propsClass';
 import { tick } from './components/state';
+import { LoggingButton } from './components/events';
+//import Tog from './components/toggle';
 function App() {
   const [main,setMain] = useState()
   let handleState=(params)=>{
@@ -23,7 +25,8 @@ function App() {
      <Home/>
      <Element />
      <Test />
-    
+    <LoggingButton />
+    {/* <Tog /> */}
     </div>
   );
 }
