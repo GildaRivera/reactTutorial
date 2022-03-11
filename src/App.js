@@ -10,6 +10,7 @@ import { Test } from './components/propsClass';
 import { tick } from './components/state';
 import { LoggingButton } from './components/events';
 //import Tog from './components/toggle';
+import { Calculator } from './components/stateUp';
 function App() {
   const [main,setMain] = useState()
   let handleState=(params)=>{
@@ -27,6 +28,7 @@ function App() {
      <Test />
     <LoggingButton />
     {/* <Tog /> */}
+    <Calculator />,
     </div>
   );
 }
