@@ -11,6 +11,7 @@ import { tick } from './components/state';
 import { LoggingButton } from './components/events';
 //import Tog from './components/toggle';
 import { Calculator } from './components/stateUp';
+import { Example } from './components/state';
 function App() {
   const [main,setMain] = useState()
   let handleState=(params)=>{
@@ -28,7 +29,8 @@ function App() {
      <Test />
     <LoggingButton />
     {/* <Tog /> */}
-    <Calculator />,
+    <Calculator />
+    <Example/>
     </div>
   );
 }
