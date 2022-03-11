@@ -12,6 +12,7 @@ import { LoggingButton } from './components/events';
 //import Tog from './components/toggle';
 import { Calculator } from './components/stateUp';
 import { Example } from './components/state';
+import { Counter1 } from './components/redux3';
 function App() {
   const [main,setMain] = useState()
   let handleState=(params)=>{
@@ -31,6 +32,7 @@ function App() {
     {/* <Tog /> */}
     <Calculator />
     <Example/>
+    {/* <Counter1/> */}
     </div>
   );
 }
