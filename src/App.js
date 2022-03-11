@@ -13,6 +13,7 @@ import { LoggingButton } from './components/events';
 import { Calculator } from './components/stateUp';
 import { Example } from './components/state';
 import { Counter1 } from './components/redux3';
+import App2 from './components/redux4';
 function App() {
   const [main,setMain] = useState()
   let handleState=(params)=>{
@@ -33,6 +34,7 @@ function App() {
     <Calculator />
     <Example/>
     {/* <Counter1/> */}
+    {/* <App2/> */}
     </div>
   );
 }
